@@ -130,17 +130,7 @@ public class Vista extends JFrame {
 					especialidades += chckbxNewCheckBox_2.getText() + " | ";
 				}
 				
-				int horas = slider.getValue();
-				
-				
-				/*if(rdbWindows.isSelected()) {
-					
-				} else if (rdbLinux.isSelected()) {
-					
-				}else if (rdbMac.isSelected()) {
-					
-				}*/
-				
+				int horas = slider.getValue();				
 				
 				JOptionPane.showMessageDialog(null, sistemaOperativo + "\n" + especialidades + "\nHoras: " + horas);
 			}
